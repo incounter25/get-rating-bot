@@ -5,7 +5,7 @@ from googletrans import Translator
 app = Flask(__name__)
 
 
-RAWG_API_KEY = 
+RAWG_API_KEY = "75edf1b452c140aca6020bf4ed3c4799"
 
 
 translator = Translator()

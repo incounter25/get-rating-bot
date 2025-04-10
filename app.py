@@ -97,9 +97,6 @@ def webhook():
 
        #형태3:장르 추천시 구조
         elif "추천" in full_query:
-            #띄어쓰기 없는 한글 단어 추출용
-            tokens = re.findall(r"[가-힣]+", full_query)
-            print("토큰 분해",tokens)
 
             #장르 후보 리스트
             genre_candidates = ["액션", "전략", "롤플레잉", "슈팅", "퍼즐", "레이싱", "스포츠", "시뮬레이션", "인디", "어드벤처"]
